@@ -1,0 +1,8 @@
+@font-face {
+    font-family: lazydog;
+    src: ('fonts/Lazydog.otf');
+}
+
+*{
+    font-family: lazydog;
+}

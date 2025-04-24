@@ -52,11 +52,23 @@ h2 {
   justify-content: flex-end;
 }
 
-.social-handles {
+.social-handles p{
   text-align: left;
   font-size: 1.5rem;
   color: #c0c0c0;
   margin-bottom: 16px;
+}
+
+.social-handles a{
+  text-align: left;
+  font-size: 1.5rem;
+  color: #c0c0c0;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.social-handles a:hover{
+  color: #BF3737;
 }
 
 .text-block {
@@ -387,13 +399,14 @@ input, textarea {
 .faq-section {
   background-color: #BF3737;
   color: white;
-  padding: 80px 40px;
+  height: 100vh;
+  padding: 160px 100px;
   width: 100%;
 }
 
 .faq-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   font-size: 2rem;
 }
 
@@ -405,6 +418,7 @@ input, textarea {
 .faq-table td {
   padding: 15px;
   vertical-align: top;
+  font-size: 20px;
 }
 
 .left {
